@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+   <title>Рисовалка</title>
+   <link rel="stylesheet" href="stylesheets/style.css">
+   <script src="jquery.js" charset="utf-8"></script>
+ </head>
+ <body>
+<header>
+  <nav>
+    <div class="button music1"><a href="#"><img src="images/cat.svg" alt="cat"></a></div>
+       <audio id="sound-link" preload="auto">
+          <source src="audio/mew.mp3" type="audio/mpeg">
+       </audio>
+
+       <div class="button music2"><a href="#"><img src="images/frog.svg" alt="frog"></a></div>
+          <audio id="sound-link" preload="auto">
+             <source src="audio/croak.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="button music3"><a href="#"><img src="images/dog.svg" alt="dog"></a></div>
+             <audio id="sound-link" preload="auto">
+                <source src="audio/gav.mp3" type="audio/mpeg">
+             </audio>
+  </nav>
+</header>
+<main>
+
+  <script>
+var soundLink = $("#sound-link")[0];
+          $(".music1 a").click(function() {
+              soundLink.play();
+          });
+</script>
+
+<script>
+var soundLink = $("#sound-link")[0];
+        $(".music2 a").click(function() {
+            soundLink.play();
+        });
+</script>
+
+<script>
+var soundLink = $("#sound-link")[0];
+        $(".music3 a").click(function() {
+            soundLink.play();
+        });
+</script>
+
+</main>
+ </body>
+</html>
