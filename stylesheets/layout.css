@@ -30,6 +30,13 @@ main a {
   float: right;
   border-radius: 15px;
 }
+p {
+  font-family: 'Rubik Mono One', sans-serif;
+  margin: 50px 100px;
+  color: black;
+  float: left;
+  width: 100px;
+}
 
 section {
   display: flex;
