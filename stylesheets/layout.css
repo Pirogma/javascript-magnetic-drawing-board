@@ -20,16 +20,6 @@
    padding: 20px 100px;
   }
 
-  .back {
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    background-color: gray;
-    width: 700px;
-    height: 400px;
-    margin: 0px 0px 0px 350px;
-  }
-
 main a {
   font-family: 'Rubik Mono One', sans-serif;
   padding: 20px;
@@ -39,4 +29,20 @@ main a {
   text-decoration: none;
   float: right;
   border-radius: 15px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  background-color: gray;
+  width: 700px;
+  margin: 0px 0px 0px 370px;
+}
+section div {
+  display: flex;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
 }
